@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LogIn</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/login.css">
+</head>
+
+<body>
+    <h1>LogIn</h1><br>
+    <div class="login">
+        <form id="login" method="get" action="home.html">
+            <label><b>User Name
+                </b>
+            </label>
+            <input type="text" name="Uname" id="Uname" placeholder="Username" required>
+            <span class="error">*</span>
+            <br><br>
+            <label><b>Password
+                </b>
+            </label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password" required>
+            <span class="error">*</span>
+            <br><br><br>
+            <input onclick="printName()" type="submit" name="log" id="log" value="LogIn">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <br><br>
+            <span><b>Forgot</b> <a href="#">Password</a></span>
+        </form>
+    </div>
+
+
+    <script>
+
+        function printName() {
+            localStorage.setItem("username", document.getElementById("Uname").value);
+        }
+
+    </script>
+
+</body>
+
+</html>

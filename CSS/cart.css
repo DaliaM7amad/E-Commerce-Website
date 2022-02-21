@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+table {
+  border: 1px solid black;
+  padding: 20px;
+  width: 1000px;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  background: linear-gradient(180deg, #c6d7db, #d8b4db);
+}
+
+/* header */
+
+.headerContainer {
+  /* done */
+  background-color: #f6f3f3;
+  height: 90px;
+  margin-bottom: 55px;
+}
+.logo {
+  /* done */
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  padding: 15px 30px;
+  margin: 0px 60px;
+  font-family: Baskerville Old Face;
+  font-weight: bold;
+}
+
+#headerUl {
+  /* done */
+  list-style: none;
+  position: absolute;
+  display: flex;
+  padding: 20px 800px;
+  font-size: 23px;
+  margin: 0px;
+  margin-left: 195px;
+  padding: 10px 20px 40px 700px;
+}
+
+nav ul li {
+  /* done */
+  padding: 10px;
+  line-height: 10px;
+  font-family: Baskerville Old Face;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+}
+a:hover {
+  color: chocolate;
+}
+
+#delete {
+  font-size: 20px;
+  margin-top: -14px;
+  font-weight: bold;
+  color: #403a3a;
+  background-color: #ffffff;
+  height: 49px;
+  border-color: #c0bebe;
+  border-radius: 9px;
+}
+
+/* footer */
+.footer {
+  height: 400px;
+  display: flex;
+  background-color: #f6f3f3;
+  font-family: Baskerville Old Face;
+  margin-top: 55px;
+}

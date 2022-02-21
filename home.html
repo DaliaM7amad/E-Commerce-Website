@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="headerContainer">
+    <div class="logo">Shopping House</div>
+    <div style=" padding: 14px;">
+      <nav>
+        <ul id="headerUl">
+          <li><a href="#">Home</a></li>
+          <li><a href="./signup.html">SignUp</a></li>
+          <li><a href="./signin.html">SignIn</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">AboutUs</a></li>
+          <li><a href="./cart.html"><span style="font-size: 30px;">&#128722;</span> </a></li>
+          <li id="username"></li>
+          <li id="liLogout"><a><button id="logout" onclick="logout()">Logout</button></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- slider -->
+  <div class="slideshow-container" style="max-width: 1480px; position: relative; margin: auto;">
+
+    <div class="Slides ">
+      <img src="./img/women.jpeg" style="width:100% ; height: 550px;">
+    </div>
+
+    <div class="Slides ">
+      <img src="./img/lap.jpeg" style="width:100% ; height: 550px;">
+    </div>
+
+    <div class="Slides ">
+      <img src="./img/men1.jpeg" style="width:100% ; height: 550px;">
+    </div>
+
+  </div>
+
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+
+  <!-- ////////////// -->
+
+
+  <div class="div1">
+    <p style="font-size: 45px;">Our Products</p>
+    <p style="  font-size: 20px; color: dimgray; line-height: 0px;">Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Nobis dolorum!</p>
+  </div>
+
+  <!-- Categories -->
+  <div id="div2">
+    <ul id="categ">
+      <li class="categ1">
+        <a href="#men">Men's clothing</a>
+        <a href="#men">
+          <img style="display: block; position:relative; border-radius: 10px; margin-top: 50px;" src="./img/boy.jpeg"
+            width="210px" height="250px">
+        </a>
+      </li>
+
+      <li class="categ1">
+        <a href="#women">Women's clothing</a>
+        <a href="#women">
+          <img style="display: block; position:relative; border-radius: 10px; margin-top: 50px;" src="./img/girl.jpeg"
+            width="210px" height="250px">
+        </a>
+
+      </li>
+      <li class="categ1">
+        <a href="#electronics">Electronics</a>
+        <a href="#electronics">
+          <img style="display: block; position:relative; border-radius: 10px; margin-top: 50px;"
+            src="./img/electronics.jpeg" width="210px" height="250px">
+        </a>
+
+      </li>
+      <li class="categ1">
+        <a href="#jewelery">Jewelery</a>
+        <a href="#jewelery">
+          <img style="display: block; position:relative; border-radius: 10px; margin-top: 50px;" src="./img/jew.jpeg"
+            width="210px" height="250px">
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Men's Clothes -->
+
+  <div id="men" class="data">
+
+    <h1 style="font-family: Baskerville Old Face; margin: 50px 40px;">Men's clothing</h1>
+    <div id="divmen">
+
+    </div>
+
+    <a style="font-family: Baskerville Old Face; font-size: 20px; font-weight: bold; float: right; margin-right: 30px; "
+      href="#div2">Back
+      To
+      Categories</a>
+  </div>
+
+  <!-- Women's Clothes -->
+
+  <div id="women" class="data">
+
+    <h1 style="font-family: Baskerville Old Face; margin: 50px 40px;">Women's clothing</h1>
+    <div id="divwoman">
+
+    </div>
+
+    <a style="font-family: Baskerville Old Face; font-size: 20px; font-weight: bold; float: right; margin-right: 30px; margin-top: 880px; "
+      href="#div2">Back
+      To
+      Categories</a>
+  </div>
+
+  <!-- Electronics -->
+
+  <div id="electronics" class="data">
+
+    <h1 style="font-family: Baskerville Old Face; margin: 50px 40px;">Electronics</h1>
+    <div id="divelectronics">
+    </div>
+
+    <a style="font-family: Baskerville Old Face; font-size: 20px; font-weight: bold; float: right; margin-right: 30px; margin-top: 880px; "
+      href="#div2">Back
+      To
+      Categories</a>
+  </div>
+
+  <!-- Jewelery -->
+
+  <div id="jewelery" class="data">
+
+    <h1 style="font-family: Baskerville Old Face; margin: 50px 40px;">Jewelery</h1>
+
+    <div id="divjewelery"></div>
+
+    <a style="font-family: Baskerville Old Face; font-size: 20px; font-weight: bold; float: right; margin-right: 30px; "
+      href="#div2">Back
+      To
+      Categories</a>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <div style="width: 400px; margin: 50px 60px 50px 100px" class="eight">
+      <p style="font-size: 35px; font-weight: bold">Shopping House</p>
+      <p style="font-size: 18px; line-height: 25px; color: gray">We would love to serve you and let you enjoy<br> your
+        culinary experience. Excepteur sint<br> occaecat cupidatat non proident.</p>
+      <p style="font-size: 18px; line-height: 25px; color: gray">Copyright &copy; 2019 All rights reserved | This<br>
+        template is made by Colorlib</p>
+    </div>
+    <div style="width: 400px; margin: 80px 30px 30px 60px">
+      <p style="font-size: 25px">Opening Times</p>
+      <p style="font-size: 18px; line-height: 30px; color: gray">Monday: Friday: 10.00 - 23.00<br>
+        Saturday: 10.00 - 19.00</p>
+      <img src="./img/facebook%20(2).png" style="margin: 0px 10px">
+      <img src="./img/twitter%20(1).png">
+      <img src="./img/google-plus%20(1).png" style="margin: 0px 10px">
+      <img src="./img/instagram%20(1).png">
+    </div>
+    <div style="width: 400px; margin: 75px 50px 50px 30px">
+      <p style="font-size: 25px">Contact Us</p>
+      <p style="font-size: 18px; line-height: 30px; color: gray">Tel: (+12) 345 678 910<br>
+        E-mail: Hello.colorlib@gmail.com<br>
+        Address: Iris Watson, P.O. Box 283 8562 Fusce Rd, NY</p>
+    </div>
+  </div>
+
+  <script>
+    if (localStorage.getItem("username") != null) {
+      document.getElementById("username").textContent = " " + localStorage.getItem("username");
+      document.getElementById("logout").style.display = "block";
+    }
+
+    function logout() {
+      localStorage.removeItem("username");
+      if (localStorage.getItem("username") == null) {
+        document.getElementById("logout").style.display = "none";
+      }
+      location.reload();
+    }
+
+  </script>
+
+  <script src="./data.js"></script>
+
+</body>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/login.css">
+</head>
+
+<body>
+    <h1>SignUp</h1><br>
+    <div class="signun">
+        <form id="login" method="get" action="home.html">
+            <label><b>User Name
+                </b>
+            </label>
+            <input type="text" id="Uname" placeholder="Username" required>
+            <span class="error">*</span>
+            <br><br>
+            <label><b>Email
+                </b>
+            </label>
+            <br>
+            <input type="text" id="mail" placeholder="Email" required>
+            <span class="error">*</span>
+            <br><br>
+            <label><b>Password
+                </b>
+            </label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Password" required>
+            <span class="error">*</span>
+            <br><br>
+            <label><b>Confirm Password
+                </b>
+            </label>
+            <input type="Password" name="conpass" id="conpass" placeholder="Confirm Password" required>
+            <span class="error">*</span>
+            <br><br><br>
+            <input type="checkbox" id="check">
+            <span>I accept the <a href="#">Terms & Conditions</a></span>
+            <br><br><br>
+            <input onclick="printName()" type="submit" name="log" id="log" value="SignUp">
+        </form>
+    </div>
+
+    <script>
+        function printName() {
+            localStorage.setItem("username", document.getElementById("Uname").value);
+        }
+
+
+        document.forms[0].addEventListener("submit", function (event) {
+
+            var nameRegex = /^[a-z]{3,}([\s]{1}[a-z]{3,})*$/i;
+            var emailRegex = /^[a-zA-Z]{2,}@[a-zA-Z]{2,}(.com|.net|.org|.edu)$/;
+            var Uname = document.getElementById("Uname").value;
+            var email = document.getElementById("mail").value;
+
+            if (nameRegex.test(Uname) && emailRegex.test(email)) {
+
+            } else {
+                alert('Please enter a valid data!');
+                document.forms[0].action = "";
+            }
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>

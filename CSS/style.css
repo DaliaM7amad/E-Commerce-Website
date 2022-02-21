@@ -1,0 +1,164 @@
+body {
+  /* done */
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6 ease;
+}
+.active {
+  background-color: #717171;
+}
+
+.headerContainer {
+  /* done */
+  background-color: #f6f3f3;
+  height: 90px;
+}
+.logo {
+  /* done */
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  padding: 15px 30px;
+  margin: 0px 60px;
+  font-family: Baskerville Old Face;
+  font-weight: bold;
+}
+
+#headerUl {
+  /* done */
+  list-style: none;
+  position: absolute;
+  display: flex;
+  padding: 20px 800px;
+  font-size: 23px;
+  margin: 0px;
+  margin-left: -45px;
+  padding: 10px 20px 40px 700px;
+}
+
+nav ul li {
+  /* done */
+  padding: 10px;
+  line-height: 10px;
+  font-family: Baskerville Old Face;
+}
+
+a {
+  /* done */
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+}
+a:hover {
+  /* done */
+  color: chocolate;
+}
+
+.div1 {
+  /* done */
+  height: 150px;
+  text-align: center;
+  font-family: Baskerville Old Face;
+}
+#div2 {
+  /* done */
+  height: 450px;
+  text-align: center;
+  /* display: flex; */
+  padding-left: 0px;
+  padding-top: 40px;
+  margin-bottom: 80px;
+  background-color: #e5f2f2;
+}
+
+#categ {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  font-family: Baskerville Old Face;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.categ1 {
+  padding-left: 138px;
+}
+
+/* footer */
+.footer {
+  height: 400px;
+  display: flex;
+  background-color: #f6f3f3;
+  font-family: Baskerville Old Face;
+}
+
+#men {
+  margin-bottom: 80px;
+  padding-top: 10px;
+  height: 1100px;
+  background-color: #e5f2f2;
+}
+
+#women {
+  margin-bottom: 80px;
+  padding-top: 10px;
+  height: 2000px;
+  background-color: #e5f2f2;
+}
+
+#electronics {
+  margin-bottom: 80px;
+  padding-top: 10px;
+  height: 2000px;
+  background-color: #e5f2f2;
+}
+
+#jewelery {
+  margin-bottom: 80px;
+  padding-top: 10px;
+  height: 1100px;
+  background-color: #e5f2f2;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 22.8%;
+  height: 800px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+  background-color: #fefefe;
+  float: left;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #333;
+}
+
+#username {
+  color: #1764a2;
+  font-weight: bold;
+}
+
+#logout {
+  font-size: 20px;
+  margin-top: -14px;
+  font-weight: bold;
+  color: #403a3a;
+  background-color: #e4e0e0;
+  height: 49px;
+  border-color: #c0bebe;
+  border-radius: 9px;
+  display: none;
+}
